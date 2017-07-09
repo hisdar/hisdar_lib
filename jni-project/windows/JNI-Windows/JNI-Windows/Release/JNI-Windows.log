@@ -1,33 +1,5 @@
-﻿生成启动时间为 2017/2/2 15:21:28。
-     1>项目“E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\JNI-Windows\JNI-Windows.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Release\JNI-Windows.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         所有输出均为最新。
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\..\..\Microsoft Visual Studio 2010 Workspace\HisdarLib\HisdarLib\HFile.cpp" "..\..\..\..\..\..\..\Microsoft Visual Studio 2010 Workspace\HisdarLib\HisdarLib\HShortCut.cpp" cn_hisdar_lib_local_Windows.cpp
-         HFile.cpp
-         HShortCut.cpp
-         cn_hisdar_lib_local_Windows.cpp
-       ResourceCompile:
-         所有输出均为最新。
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\JNI-Windows.def" /MANIFEST /ManifestFile:"Release\JNI-Windows.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.lib" /MACHINE:X86 /DLL "Release\JNI-Windows.res"
-         Release\HFile.obj
-         Release\HShortCut.obj
-         Release\cn_hisdar_lib_local_Windows.obj
-         "Release\JNI-Windows.obj"
-         Release\stdafx.obj
-            正在创建库 E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.lib 和对象 E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.exp
-         正在生成代码
-         已完成代码的生成
-         JNI-Windows.vcxproj -> E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.dll
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\Release\JNI-Windows.dll;#2" /manifest "Release\JNI-Windows.dll.intermediate.manifest" "D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
-       FinalizeBuildStatus:
-         正在删除文件“Release\JNI-Windows.unsuccessfulbuild”。
-         正在对“Release\JNI-Windows.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“E:\Workspace\EclipseWorkspace\Classic\HisdarLib\jni-project\windows\JNI-Windows\JNI-Windows\JNI-Windows.vcxproj”(build 个目标)的操作。
+﻿生成启动时间为 2017/7/9 11:56:30。
 
 生成成功。
 
-已用时间 00:00:08.30
+已用时间 00:00:00.04
