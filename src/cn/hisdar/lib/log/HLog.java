@@ -54,6 +54,10 @@ public class HLog {
 		il(obj.toString());
 	}
 	
+	public static void dl(Object obj) {
+		il(obj.toString());
+	}
+	
 	public static void il(char ch) {
 		il("" + ch);
 	}
