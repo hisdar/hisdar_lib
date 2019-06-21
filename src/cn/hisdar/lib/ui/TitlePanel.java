@@ -17,7 +17,6 @@ public class TitlePanel extends JPanel {
 		
 		titleLabel = new JLabel(title);
 		
-		
 		titleLabel.setForeground(Color.WHITE);
 		titleLabel.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 12));
 		
