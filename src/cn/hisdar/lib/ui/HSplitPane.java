@@ -82,10 +82,12 @@ public class HSplitPane extends JPanel {
 		
 		/////////////////////////////////////////////////////////////////
 		drawBorder((Graphics2D)g);
+		int offsetForDivider = (dividerSize + 1) / 2;
 		if (dividerOrientation == VERTICAL_SPLIT) {
 			if (leftComponent != null) {
-				leftComponent.setBounds(0, 0, dividerLocation, getHeight());
-				leftComponent.setPreferredSize(new Dimension(dividerLocation, getHeight()));
+				int componentWidth = dividerLocation - offsetForDivider;
+				leftComponent.setBounds(0, 0, componentWidth, getHeight());
+				leftComponent.setPreferredSize(new Dimension(componentWidth, getHeight()));
 			}
 			
 			if (rightComponent != null) {
@@ -95,8 +97,9 @@ public class HSplitPane extends JPanel {
 			}
 		} else if (dividerOrientation == HORIZONTAL_SPLIT) {
 			if (leftComponent != null) {
-				leftComponent.setBounds(0, 0, getWidth(), dividerLocation);
-				leftComponent.setPreferredSize(new Dimension(getWidth(), dividerLocation));
+				int componentHeight = dividerLocation - offsetForDivider;
+				leftComponent.setBounds(0, 0, getWidth(), componentHeight);
+				leftComponent.setPreferredSize(new Dimension(getWidth(), componentHeight));
 			}
 			
 			if (rightComponent != null) {

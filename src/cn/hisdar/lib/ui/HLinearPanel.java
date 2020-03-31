@@ -55,6 +55,9 @@ public class HLinearPanel extends JPanel {
 		lastPanel.add(componentParentPanel, BorderLayout.CENTER);
 		componentParentList.add(componentParentPanel);
 		componentList.add(component);
+		
+		revalidate();
+		repaint();
 	}
 	
 	public void removeAllChilds() {
